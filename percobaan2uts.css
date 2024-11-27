@@ -1,0 +1,334 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Barriecito", system-ui;
+}
+.navigasi {
+	background-color: #e2f3eb;
+	width: 1686px;
+	height: 100px;
+	color: #dc6934;
+}
+.logo {
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	font-size: 150%;
+}
+.menu {
+	margin-left: 1000px;
+	padding-top: 30px;
+}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 50px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #dc6934;
+	font-family: crimson text;
+	font-size: 150%;
+}
+.menu ul li a:hover {
+	color: #66e241;
+	font-style: italic;
+}
+.banner {
+	background-image: url(imageuts1/banner2.png);
+	height: 1200px;
+	text-align: center;
+	color: darkred;
+}
+.banner h1 {
+	margin-top: -1090px;
+	font-family: barrio;
+	color: #000000;
+}
+.banner h3{
+	margin-top: 10px;
+}
+.banner button{
+	padding: 10px;
+	margin-top: 860px;
+	width: 600px;
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: crimson text;
+	color: #c54b4b;
+	border-radius: 600px;
+	border: none;
+	border-style: ridge;
+}
+.banner botton:hover{
+	background-color: cadetblue;
+	color: #66e241;
+}
+h1 span:before{
+	content: "";
+	animation: gerak infinite 8s ease;
+	transform: translateY(-50%);
+	color: darkred;
+	font-size: 30px;
+}
+@keyframes gerak {
+	0% {
+		content: "Talitha Bakery's Siap Membantu Kebutuhan Acara Mu";
+	}
+	50% {
+		content: "Kunjungi Situs Kami";
+	}
+	100% {
+		content: "Thankyou for visit";
+	}
+}
+
+.box-About {
+    text-align: center;
+    color: #dc6934;
+    margin-top: 30px;
+}
+
+.box-About h1 {
+    margin-bottom: 20px; 
+    font-size: 2rem;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.box-container:hover {
+	background-color: #e8e843;
+	padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 50px;
+}
+
+.box-item {
+    width: 300px;
+    height: 320px;
+    background-color: rgba(119, 217, 233, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.box-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.box-item h3 {
+    margin: 0;
+    color: #e04977;
+    font-size: 150%;
+}
+
+.box-About p h3 {
+	color: #dc6934;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 30px;
+	font-style: normal;
+	margin: 20px;
+}
+.box-About h3 {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #dc6934;
+    font-weight: bold; 
+    line-height: 1.6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "DM Serif Text", serif;
+}
+.box-teks p {
+	margin: 70px;
+}
+
+.box-item-page-Produk h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #dc6934;
+    margin-bottom: 20px;
+}
+
+.box-item-page-Produk h2 {
+    margin-top: 30px; 
+    font-size: 2rem;
+    text-align: center;
+    color: #dc6934;
+}
+
+.box-container-Produk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.box-container-Produk::-webkit-scrollbar {
+	height: 8px;
+}
+
+.box-container-Produk::-webkit-scrollbar-thumb {
+	background-color: #dc6934;
+	border-radius: 5px;
+}
+
+.box-container-Produk:hover {
+	background-color: #bfea81;
+	padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 50px;
+}
+
+.box-item-page-Produk {
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	min-width: 250px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box-item-page-Produk:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box-item-page-Produk h3 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #dc6934;
+    font-weight: bold; 
+    line-height: 1.6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Atma", serif;
+}
+
+.box-item-page-Produk ul {
+  list-style-type: none;
+  padding: 0;
+}
+.box-item-page-Produk ul li {
+	color: black;
+	font-size: 1.8rem;
+	text-align: center;
+	padding: 5px;
+	font-family: caveat;
+	margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+	.box-container-Produk {
+		flex-wrap: nowrap;
+	}
+
+	.box-item-page-Produk {
+	min-width: 200px;
+}
+}
+
+.Galeri-page img {
+	width: 350px;
+	height: 200px;
+	text-align: center;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Galeri-page img:hover {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.Galeri-page h1 {
+	color: #dc6934;
+	font-family: "Barriecito", serif;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.box-item-kontak::-webkit-scrollbar {
+	height: 8px;
+}
+
+.box-item-kontak h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.box-container-kontak::-webkit-scrollbar-thumb {
+	background-color: #dc6934;
+	border-radius: 5px;
+}
+
+.box-container-kontak a {
+	text-align: center;
+}
+
+.box-container-kontak:hover {
+	background-color: #b1f1c6;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.box-item-page-kontak {
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+	min-width: 250px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box-item-page-kontak:hover {
+	transform: translateX(-10px);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box-container-kontak img {
+	width: 30px;
+	height: 30px;
+}
+
+
+
